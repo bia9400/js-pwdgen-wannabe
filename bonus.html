@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="league-logo"><img src="img/League of Legends.svg" alt=""></div>
+    <div class="league-txt"><img src="img/lol-league-of-Legends-logo-2-1.png" alt=""></div>
+    <div class="container d-flex align-items-center justify-content-center">
+
+        <div class="login-section">
+            
+            <form id="leagueForm" action="">
+                <h1>Registrati</h1>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingName" placeholder="Garen">
+                    <label for="floatingName">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingSurname" placeholder="Get Can..">
+                    <label for="floatingSurname">Cognome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                    <label for="floatingEmail">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingSmRift" placeholder="name@example.com">
+                    <label for="floatingSmRift">Champion Preferito</label>
+                </div>
+                <input style="width: 300px;" list="browsers" placeholder="Che malattia desideri ottenere?">
+
+                <datalist id="browsers">
+                    <option value="Odio incondizionato verso il mondo intero">
+                    <option value="Mono-Garen to Master">
+                    <option value="ggwp jungle gap">
+                    
+                </datalist>
+                <input type="button" value="Submit" onclick="exerciseMesage();">
+
+            </form>
+        </div>
+    </div>
+    <script src="bonus-app.js"></script>
+</body>
+
+</html>
