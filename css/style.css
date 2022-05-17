@@ -1,0 +1,26 @@
+body{
+    
+    background-image: url("../img/2178957.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+h2,h3{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+}
+.container{
+    height: 100%;
+    position: relative;
+}
+.league-logo{
+    position: absolute;
+    width: 200px;
+}
+.league-txt{
+    padding-top: 8rem;
+    padding-left: .5rem;
+}
+.league-txt img{
+    width: 300px
+}
